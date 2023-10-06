@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    position: absolute;
+    width: 43.4%;
+    max-height: 53.8vh; 
+}
+
+table {
+    width: 100vw;
+    max-height: 100vh;
+    aspect-ratio: 5 / 3;
+    border: 1px black  solid;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) td {
+    color: red;
+    background-color: red;
+}
+
+tr:nth-child(even) td {
+    color: white;
+    background-color: white;
+}
+

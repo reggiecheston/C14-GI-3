@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    margin: 96px auto 96px auto;
+    text-align: center;
+    font-size: 48px;
+}
+
+table {
+    border: 1px black  solid;
+    margin: auto;
+    margin-bottom: 10vh;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+}
+
+tr:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even){
+    color: black;
+    background-color: black;
+}
+
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd){
+    color: white;
+    background-color: white;
+}
